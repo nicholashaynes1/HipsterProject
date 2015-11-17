@@ -52,7 +52,9 @@ public class hipsterController
 	
 	public void start()
 	{
-		
+		String myName = baseFrame.getResponse("what is your name?");
+		FirstHipster.setName(myName);
+		baseFrame.setTitle(myName + "'s hipster project.");
 	}
 
 }
