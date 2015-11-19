@@ -1,11 +1,11 @@
 package hipster.controller;
 
-public class hipsterRunner
+public class HipsterRunner
 {
 
 	public static void main(String[] args)
 	{
-		hipsterController myhipsterController = new hipsterController();
+		HipsterController myhipsterController = new HipsterController();
 		myhipsterController.start();
 
 	}
